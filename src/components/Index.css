@@ -1,13 +1,21 @@
 .container {
-    max-width: 575.98px;
+    max-width: 400px;
     background: #fff;
     /* border: 3px solid #eee; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.1);
-    margin: 50px auto 0px;
+    margin: 30px auto 30px;
     text-align: center;
     overflow: auto;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif!important;
     font-weight: 400;
+}
+
+.whitetext {
+    color: #fff!important;
+}
+
+a {
+    color: #444!important;
 }
 
 .header-bar {
@@ -16,19 +24,41 @@
     border-bottom: 1px solid #f2f2f2;
 }
 
-.logo {
-    padding-top: 20px;
+.logoSection {
+    padding-top: 20px!important;
+}
+
+.logo  {
     font-weight: 700;
     font-size: 30px;
     color: #444;
 }
 
+.logo:hover {
+    color: #444!important;
+}
+
 .content {
-    margin: 50px auto;
+    margin: 50px auto 0px;
     padding: 10px;
 }
 
-.icon {
-    width: 20px;
-    height: 20px;
+.singleButton {
+    margin-bottom: 30px!important;
+}
+
+.finish-link {
+    text-align: right;
+    float: right;
+    text-decoration: underline;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.blob {
+    width: 300px;
+    height: auto;
 }

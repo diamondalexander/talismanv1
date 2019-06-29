@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 import FirstScreen from '../components/FirstScreen'
 import Title from '../components/Title'
 import Index from '../components/Index.css'
+import FooterMenu from '../components/Footer'
+
 
 // import Layout from "../components/layout"
 import Image from "../components/image"
@@ -16,9 +18,10 @@ const IndexPage = () => (
       />
       <div className="content">
       <FirstScreen
-        text="Color"
+        text="Let's begin!"
+        image={require('../images/Grey.png')}
        />
-      <Link to="/second-page/">Next</Link>
+      <button className="ui teal button singleButton"><Link to="/first-page/" className="whitetext">Get Started</Link></button>
     </div>
     </div>
 );

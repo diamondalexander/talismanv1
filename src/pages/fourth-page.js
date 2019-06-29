@@ -12,14 +12,13 @@ const Fourth = () => (
     <div className="container">
       <Title
         title="Talisman"
-        // image={require('../images/gatsby-icon.png')}
       />
       <div className="content">
       <FirstScreen
-        text="Last page"
+        text="All done!"
+        image={require('../images/Final.png')}
        />
-      <Link to="/">Return to home</Link><br/>
-      <Link to="/third-page/">Back</Link>
+      <button className="ui teal button singleButton"><Link to="/" className="whitetext">Home</Link></button>
     </div>
     </div>
 );
