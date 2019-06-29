@@ -16,7 +16,7 @@ const IndexPage = () => (
       />
       <div className="content">
       <FirstScreen
-        text="Color"
+        text="TEST"
        />
       <Link to="/second-page/">Next</Link>
     </div>

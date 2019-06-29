@@ -8,7 +8,7 @@ import Index from '../components/Index.css'
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const Second = () => (
     <div className="container">
       <Title
         title="Talisman"
@@ -16,11 +16,12 @@ const IndexPage = () => (
       />
       <div className="content">
       <FirstScreen
-        text="Color"
+        text="Shape"
        />
-      <Link to="/second-page/">Next</Link>
+      <Link to="/third-page">Next</Link><br/>
+      <Link to="/">Back</Link>
     </div>
     </div>
 );
 
-export default IndexPage
+export default Second
