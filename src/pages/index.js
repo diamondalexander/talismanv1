@@ -4,7 +4,6 @@ import FirstScreen from '../components/FirstScreen'
 import Title from '../components/Title'
 import Index from '../components/Index.css'
 import FooterMenu from '../components/Footer'
-import global from '../components/global.css'
 
 
 // import Layout from "../components/layout"
